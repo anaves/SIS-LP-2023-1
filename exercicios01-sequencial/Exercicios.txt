@@ -1,0 +1,14 @@
+1- Faça um programa que leia o nome, a idade, a altura, o peso e a nacionalidade do usuário e escreva essas informações na forma de um parágrafo de apresentação
+
+2. Faça um programa que exiba o perímetro de uma circunferência a partir do seu raio 
+
+3. Faça um programa que leia dois pontos num espaço bidimensional e calcule a distância entre esses pontos
+
+4- Faça um programa que informe a distância em quilômetros de um raio para o observador 
+– O observador deve informar o tempo (em segundos) transcorrido entre ver o raio e ouvir o trovão
+– Assuma que a velocidade do som é 340 m/s
+
+5- Faça um programa para, a partir de um valor informado em centavos, indicar a menor quantidade de moedas que representa esse valor
+– Considere moedas de 1, 5, 10, 25 e 50 centavos, e 1 real
+
+– Exemplo: para o valor 290 centavos, a menor quantidade de moedas é 2 moedas de 1 real, 1 moeda de 50 centavos, 1 moeda de 25 centavos, 1 moeda de 10 centavos e 1 moeda de 5 centavos
