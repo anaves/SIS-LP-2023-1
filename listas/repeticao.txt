@@ -1,4 +1,8 @@
-Entrega ate dia 01-06-2023 - Lista 02 - Repeticao
+Entrega ate dia 01-06-2023 - Lista 02 - Repeticao 
+github: https://github.com/anaves/
+repositorio: SIS-LP-2023-1
+link:
+https://github.com/anaves/SIS-LP-2023-1/blob/main/listas/repeticao.txt
 #1-Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
 #2- Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
@@ -7,4 +11,4 @@ Entrega ate dia 01-06-2023 - Lista 02 - Repeticao
 
 #4- Faça um programa, utilizando while, que mostre na tela os números de 0 a 100.
 
-#5- 
+#5- Faça um programa que calcule e mostre a média aritmética de N notas. N equivale ao total de avaliações. 
