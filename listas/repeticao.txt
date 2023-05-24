@@ -2,7 +2,7 @@ Entrega ate dia 01-06-2023 - Lista 02 - Repeticao
 github: https://github.com/anaves/
 repositorio: SIS-LP-2023-1
 link:
-https://github.com/anaves/SIS-LP-2023-1/blob/main/listas/repeticao.txt
+https://github.com/anaves/SIS-LP-2023-1/
 #1-Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
 #2- Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
@@ -12,3 +12,27 @@ https://github.com/anaves/SIS-LP-2023-1/blob/main/listas/repeticao.txt
 #4- Faça um programa, utilizando while, que mostre na tela os números de 0 a 100.
 
 #5- Faça um programa que calcule e mostre a média aritmética de N notas. N equivale ao total de avaliações. 
+
+#6- Escrever um algoritmo que lê o número de identificação, as 3 notas obtidas por um aluno nas 3 verificações e a média dos exercícios que fazem parte da avaliação. Calcular a média de aproveitamento, usando a fórmula:
+MA = (Nota1 + Nota2 x 2 + Nota3 x 3 + ME )/7
+A atribuição de conceitos obedece a tabela abaixo:
+
+Média de Aproveitamento | Conceito
+MA >= 9,0               | A
+7,5 <= MA < 9,0         | B
+6,0 <= MA < 7,5         | C
+4,0 <= MA < 6,0         | D
+MA < 4,0                | E
+
+O algoritmo deve escrever o número do aluno, suas notas, a média dos exercícios, a média de aproveitamento, o conceito correspondente e a mensagem: APROVADO se o conceito for A, B ou C e REPROVADO se o conceito for D ou E. Pergunte se o usuário deseja digitar as notas de outro aluno S para sim e N para não
+
+
+#7- Ler 80 números e ao final informar quantos número(s) est(á)ão no intervalo entre 10 (inclusive) e 150 (inclusive).
+
+#8- Faça um algoritmo que receba a idade de 75 pessoas e mostre mensagem informando “maior de idade” e “menor de idade” para cada pessoa. Considere a idade a partir de 18 anos como maior de idade.
+
+#9- Uma concessionária de veículos está vendendo os seus veículos com desconto. Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente de vários carros. O desconto deverá ser calculado de acordo com o ano do veículo. Até 2000 - 12% e acima de 2000 - 7%. O sistema deverá perguntar se deseja continuar calculando desconto até que a resposta seja: “(N) Não”. Informar total de carros com ano até 2000 e total geral.
+
+#10 Faça um algoritmo que receba “N” números e mostre positivo, negativo ou zero para cada número
+
+#11- Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado se houve lucro, prejuízo ou empate para cada produto. Informe a média de preço de custo e do preço de venda.
