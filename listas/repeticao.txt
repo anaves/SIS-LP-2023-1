@@ -13,7 +13,7 @@ https://github.com/anaves/SIS-LP-2023-1/
 
 #5- Faça um programa que calcule e mostre a média aritmética de N notas. N equivale ao total de avaliações. 
 
-#6- Escrever um algoritmo que lê o número de identificação, as 3 notas obtidas por um aluno nas 3 verificações e a média dos exercícios que fazem parte da avaliação. Calcular a média de aproveitamento, usando a fórmula:
+#6- Escrever um algoritmo que lê o número de identificação, as 3 notas entre 0 e 10 obtidas por um aluno nas 3 verificações e a nota dos exercícios (ME) tambem entre 0 e 10 que fazem parte da avaliação. Calcular a média de aproveitamento, usando a fórmula:
 MA = (Nota1 + Nota2 x 2 + Nota3 x 3 + ME )/7
 A atribuição de conceitos obedece a tabela abaixo:
 
