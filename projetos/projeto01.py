@@ -17,28 +17,39 @@ palavra = '*'*len(secreta)
 vidas = 10
 digitadas = ''
 print(palavra)
-while vidas > 0:
+erros=['cabeca','tronco', 'perna direita', 'perna esquerda', ' braco direito', 'braco esquerdo', 'olhos', 'nariz', 'boca', 'game over']
+while vidas > 0 and palavra != secreta:
+    achou = False
     letra = input('Digite primeira letra: ').upper()
     if digitadas.find(letra) >= 0:
         ### que a letra ja foi digitada...
         ### nao aceita
-        pass
+        print('letra ja digitada')
     else:
         digitadas += letra
 
-    ### verificar se a letra esta na palavra secreta
-    auxiliar =  list(palavra) 
-    for i in range(len(secreta)):
-        if letra == secreta[i]:
-            # achou a letra na palavra secreta
-            # palavra
-            auxiliar[i] = letra
-    palavra = ''.join(auxiliar)
-    os.system('clear')
-    print(palavra)
+        ### verificar se a letra esta na palavra secreta
+        auxiliar =  list(palavra) 
+        for i in range(len(secreta)):
+            if letra == secreta[i]:
+                # achou a letra na palavra secreta
+                # palavra
+                auxiliar[i] = letra
+                achou = True
+        os.system('clear')   # windows.... os.system('cls')
+        if not achou:
+            vidas-=1
+        print(erros[0:10-vidas])
 
-    # percorreu todas e nunca achou, dimunui uma vida
-    vidas -= 1
+        palavra = ''.join(auxiliar)
+        
+        print(palavra)
+
+if palavra == secreta:
+    print("Parabens voce acertou a palavra secreta")
+else:
+    print("xiihhhh: perdeu!!!")
+    print(secreta)
 
 
 
